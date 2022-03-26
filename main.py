@@ -40,10 +40,10 @@ class ParentWindow(Frame):
                 </head>
                 <body>
                     <h1>
-                        Stay tuned for our amazing summer sale!
+                        {}
                     </h1>
                 </body>
-            </html>''')
+            </html>'''.format(self.vartxt1.get()))
         webbrowser.open('index.html', 'w')
 
         
